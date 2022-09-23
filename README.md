@@ -11,3 +11,7 @@
   - Moon (and Mercury)
   - Earth
   
+## Python scripts ##
+
+- GitHub repository: https://github.com/kinoshitadaisuke/ncu_wuling_astronomy
+- Binder web page: https://mybinder.org/v2/gh/kinoshitadaisuke/ncu_wuling_astronomy/HEAD
