@@ -2,6 +2,8 @@
 
 ## lecture ##
 
+My contribution:
+
 - 12/Sep/2022
   - radiation
   - spectrum
