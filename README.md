@@ -12,6 +12,8 @@ My contribution:
 - 26/Sep/2022
   - Moon (and Mercury)
   - Earth
+- 06/Mar/2023
+  - radiation and spectrum
   
 ## Python scripts ##
 
