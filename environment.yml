@@ -1,6 +1,8 @@
 dependencies:
-  - numpy
   - astropy
+  - ffmpeg
   - jplephem
   - matplotlib
-  - ffmpeg
+  - numpy
+  - python=3.9
+  - scipy
