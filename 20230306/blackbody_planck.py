@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.9
 
 #
-# Time-stamp: <2023/03/04 19:43:40 (CST) daisuke>
+# Time-stamp: <2023/03/04 20:40:48 (CST) daisuke>
 #
 
 # importing numpy module
@@ -64,7 +64,8 @@ ax.set_ylabel ('Specific Intensity [W sr$^{-1}$ m$^{-2}$ Hz$^{-1}$]')
 # axes
 ax.set_xscale ('log')
 ax.set_yscale ('log')
-ax.set_xlim (10**3, numpy.array ([10**20], dtype=numpy.longdouble))
+#ax.set_xlim (10**3, numpy.array ([10**20], dtype=numpy.longdouble))
+ax.set_xlim (10**3, 10**19)
 ax.set_ylim (10**-30, 10**6)
 
 # make secondary X-axis
@@ -74,10 +75,10 @@ ax2 = ax.secondary_xaxis (location='top', \
 ax2.set_xlabel ('Wavelength [m]')
 
 # showing gamma-ray region
-ax.fill_between (numpy.array ([3*10**19, 10**21], dtype=numpy.longdouble), \
-                 10**-30, 10**8, \
-                 color='magenta', alpha=0.1)
-ax.text (x=4*10**19, y=10**-29, s='$\gamma$-ray')
+#ax.fill_between (numpy.array ([3*10**19, 10**21], dtype=numpy.longdouble), \
+#                 10**-30, 10**8, \
+#                 color='magenta', alpha=0.1)
+#ax.text (x=4*10**19, y=10**-29, s='$\gamma$-ray')
 
 # showing X-ray region
 ax.fill_between (numpy.array ([3*10**16, 3*10**19], dtype=numpy.longdouble), \
